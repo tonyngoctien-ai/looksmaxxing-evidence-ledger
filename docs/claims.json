@@ -1,0 +1,24 @@
+[
+  {
+    "id": "does-mewing-change-your-jawline",
+    "claim": "Mewing permanently changes your jawline",
+    "query": "does mewing work",
+    "verdict": "unsupported",
+    "summary": "There is no controlled evidence that tongue posture remodels adult facial bone. Claimed 'before/afters' are dominated by body-fat change, posture, camera angle and lighting.",
+    "evidence": [
+      {
+        "what": "No peer-reviewed trial has measured adult mandibular change from tongue posture.",
+        "source": "Literature gap — orthodontic reviews of myofunctional therapy",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/",
+        "strength": "absence-of-evidence"
+      }
+    ],
+    "risk": {
+      "reversibility": "fully-reversible",
+      "cost": "$0",
+      "timeToEffect": "n/a",
+      "harmNote": "Harmless on its own. The real cost is opportunity cost: months spent on mewing instead of body composition or sleep, which do change how a face reads."
+    },
+    "updated": "2026-08-25"
+  }
+]

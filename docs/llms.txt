@@ -1,0 +1,10 @@
+# looksmaxxing.guide — evidence ledger
+
+> Evidence-led, harm-reduction verdicts on looksmaxxing claims. Each claim has a
+> verdict (supported / mixed / unsupported / harmful), cited evidence, and an
+> explicit reversibility + cost profile.
+
+Structured data for all claims: https://tonyngoctien-ai.github.io/looksmaxxing-evidence-ledger/claims.json
+
+## Claims
+- [Mewing permanently changes your jawline](https://tonyngoctien-ai.github.io/looksmaxxing-evidence-ledger/c/does-mewing-change-your-jawline.html): Unsupported — There is no controlled evidence that tongue posture remodels adult facial bone. Claimed 'before/afters' are dominated by body-fat change, posture, camera angle and lighting.
