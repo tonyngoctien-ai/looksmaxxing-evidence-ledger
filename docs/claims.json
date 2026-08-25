@@ -1,15 +1,229 @@
 [
   {
+    "id": "does-sleep-affect-how-you-look",
+    "pillar": "lifestyle",
+    "claim": "Sleep changes how attractive your face looks",
+    "query": "does sleep affect your appearance",
+    "verdict": "supported",
+    "summary": "In a controlled experiment, the same faces photographed after sleep deprivation were rated less healthy and less attractive by observers who knew nothing about the sleep condition. Free, fast, and the least discussed item in this niche.",
+    "evidence": [
+      {
+        "what": "Randomised within-subject experiment: same people photographed rested vs sleep-deprived, rated by blinded observers.",
+        "source": "Axelsson et al., BMJ 2010 — 'Beauty sleep'",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/21156746/",
+        "strength": "controlled-experiment"
+      }
+    ],
+    "risk": {
+      "reversibility": "fully-reversible",
+      "cost": "$0",
+      "timeToEffect": "days",
+      "harmNote": "No catch. This has the highest effect-to-cost ratio on the entire list, which is exactly why nobody sells it to you."
+    },
+    "updated": "2026-08-25"
+  },
+  {
+    "id": "does-sunscreen-prevent-aging",
+    "pillar": "skin",
+    "claim": "Daily sunscreen prevents skin aging",
+    "query": "does sunscreen prevent aging",
+    "verdict": "supported",
+    "summary": "A 4.5-year randomised trial found measurably less skin aging in the daily-sunscreen group than in the discretionary-use group. This is the best-evidenced entry on this list.",
+    "evidence": [
+      {
+        "what": "Randomised controlled trial over 4.5 years measuring skin surface microtopography.",
+        "source": "Hughes et al., Annals of Internal Medicine 2013 (Nambour trial)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/23732711/",
+        "strength": "rct"
+      }
+    ],
+    "risk": {
+      "reversibility": "fully-reversible",
+      "cost": "$10-25/month",
+      "timeToEffect": "12+ months before paths visibly diverge",
+      "harmNote": "The failure mode is not the sunscreen, it is treating a high SPF number as permission to skip reapplication, or as a substitute for the rest of your routine."
+    },
+    "updated": "2026-08-25"
+  },
+  {
+    "id": "does-tretinoin-work",
+    "pillar": "skin",
+    "claim": "Tretinoin improves skin texture and photoaging",
+    "query": "does tretinoin actually work",
+    "verdict": "supported",
+    "summary": "Double-blind vehicle-controlled trials have shown improvement in photoaged skin. It is one of very few topicals with this level of evidence behind it.",
+    "evidence": [
+      {
+        "what": "Double-blind, vehicle-controlled trial of topical tretinoin on photoaged skin.",
+        "source": "Weiss et al., JAMA 1988",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/3336176/",
+        "strength": "rct"
+      }
+    ],
+    "risk": {
+      "reversibility": "reverses over months after stopping",
+      "cost": "$15-60/month, prescription in most markets",
+      "timeToEffect": "12-24 weeks",
+      "harmNote": "Irritation and purging around weeks 2-6 are real and are why most people quit before it works. Start twice weekly, not nightly. Increases sun sensitivity, so it pairs with the sunscreen entry rather than replacing it. Do not conflate topical tretinoin with oral isotretinoin — different drug, different risk profile, teratogenic."
+    },
+    "updated": "2026-08-25"
+  },
+  {
+    "id": "does-body-fat-change-your-face",
+    "pillar": "fitness",
+    "claim": "Losing body fat changes your facial definition",
+    "query": "does losing weight change your face",
+    "verdict": "supported",
+    "summary": "This is the honest answer sitting underneath most jawline questions. Facial adiposity tracks body composition, and it moves facial definition further than any posture habit or exercise gadget.",
+    "evidence": [
+      {
+        "what": "Observational work linking facial adiposity to perceived health and attractiveness ratings.",
+        "source": "Facial adiposity research literature (Perrett group and successors)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=facial+adiposity+perceived+health",
+        "strength": "observational"
+      }
+    ],
+    "risk": {
+      "reversibility": "fully-reversible",
+      "cost": "$0",
+      "timeToEffect": "3-12 months",
+      "harmNote": "This is where this niche does its actual damage. Chasing an ever-lower number slides into disordered eating quickly and quietly. Below roughly 10% body fat most men trade sleep, libido and training quality for a very small visual return. If tracking food is affecting your mood, that is the signal to stop — not to push harder."
+    },
+    "updated": "2026-08-25"
+  },
+  {
+    "id": "does-finasteride-stop-hair-loss",
+    "pillar": "hair",
+    "claim": "Finasteride stops male pattern hair loss",
+    "query": "does finasteride work",
+    "verdict": "supported",
+    "summary": "Large randomised trials support finasteride for androgenetic alopecia. The evidence is solid; the decision is still a medical one, not a forum one.",
+    "evidence": [
+      {
+        "what": "Randomised, placebo-controlled trials in men with androgenetic alopecia.",
+        "source": "Kaufman et al., J Am Acad Dermatol 1998",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9777765/",
+        "strength": "rct"
+      }
+    ],
+    "risk": {
+      "reversibility": "gains reverse within about 12 months of stopping",
+      "cost": "$10-30/month",
+      "timeToEffect": "6-12 months",
+      "harmNote": "A minority report sexual side effects, and whether symptoms can persist after stopping is genuinely contested rather than settled. That uncertainty is the reason this belongs in a conversation with a doctor who knows your history. Not to be handled by women who are or may become pregnant."
+    },
+    "updated": "2026-08-25"
+  },
+  {
+    "id": "does-minoxidil-grow-a-beard",
+    "pillar": "hair",
+    "claim": "Minoxidil grows a beard",
+    "query": "does minoxidil work for beard",
+    "verdict": "mixed",
+    "summary": "Two small randomised trials — one in men, one in transmen — found modest density increases from topical minoxidil on the beard area. Real, replicated, and far smaller than the results the internet attaches to it.",
+    "evidence": [
+      {
+        "what": "Randomised, double-masked, placebo-controlled trial of 3% minoxidil lotion for beard enhancement.",
+        "source": "Ingprasert et al., Journal of Dermatology 2016",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26893270/",
+        "strength": "small-rct"
+      },
+      {
+        "what": "Second randomised trial of topical 3% minoxidil for facial hair enhancement, in transmen.",
+        "source": "Randomised trial, Journal of Dermatological Treatment",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41778417/",
+        "strength": "small-rct"
+      }
+    ],
+    "risk": {
+      "reversibility": "gains fade after stopping",
+      "cost": "$10-20/month, indefinitely",
+      "timeToEffect": "16+ weeks",
+      "harmNote": "Two small trials with modest effects, not the transformations sold on social media. Oral minoxidil for cosmetic beard growth is off-label and has cardiovascular effects — that is a prescribing decision, not a grooming purchase."
+    },
+    "updated": "2026-08-25"
+  },
+  {
+    "id": "does-chewing-gum-build-a-jawline",
+    "pillar": "fitness",
+    "claim": "Hard chewing gum builds your jawline",
+    "query": "does chewing gum give you a jawline",
+    "verdict": "mixed",
+    "summary": "Heavy chewing can genuinely enlarge the masseter — but that is muscle, not bone, and it widens the rear of the jaw rather than sharpening the front. Masseter hypertrophy is something other people pay to have reduced.",
+    "evidence": [
+      {
+        "what": "Masseter hypertrophy from repetitive heavy chewing is clinically documented, and is routinely treated rather than sought.",
+        "source": "Masseter hypertrophy clinical literature",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=masseter+hypertrophy+treatment",
+        "strength": "clinical-observation"
+      }
+    ],
+    "risk": {
+      "reversibility": "partially reversible",
+      "cost": "$5-30/month",
+      "timeToEffect": "2-6 months",
+      "harmNote": "Temporomandibular joint pain, tooth wear and tension headaches are the common outcomes when people escalate to hard resistance devices. If chewing starts producing jaw clicking or morning soreness, stop — that is not adaptation."
+    },
+    "updated": "2026-08-25"
+  },
+  {
+    "id": "does-face-yoga-work",
+    "pillar": "skin",
+    "claim": "Facial exercises make you look younger",
+    "query": "does face yoga work",
+    "verdict": "mixed",
+    "summary": "A single 27-person study without a control group reported modest mid-face improvement after 20 weeks. That is a hint worth following up, not a result worth selling a programme on.",
+    "evidence": [
+      {
+        "what": "Uncontrolled 20-week facial exercise study, n=27, raters aware of the timeline.",
+        "source": "Alam et al., JAMA Dermatology 2018",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29299598/",
+        "strength": "small-uncontrolled"
+      }
+    ],
+    "risk": {
+      "reversibility": "fully-reversible",
+      "cost": "$0",
+      "timeToEffect": "20 weeks in the one study we have",
+      "harmNote": "Close to free, so the downside is small — but daily pulling at thin periorbital skin is not self-evidently harmless, and no trial has run long enough to say."
+    },
+    "updated": "2026-08-25"
+  },
+  {
+    "id": "do-collagen-supplements-improve-skin",
+    "pillar": "skin",
+    "claim": "Collagen supplements improve your skin",
+    "query": "do collagen supplements work",
+    "verdict": "mixed",
+    "summary": "Several small trials report modest elasticity improvements. Most were funded by companies selling collagen, which is not disqualifying but is exactly the context you need before reading the effect size.",
+    "evidence": [
+      {
+        "what": "Multiple small, short-duration RCTs, predominantly industry-funded, reporting modest skin elasticity outcomes.",
+        "source": "Collagen peptide supplementation trial literature",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=collagen+peptide+supplementation+skin+elasticity+randomized",
+        "strength": "small-rcts-industry-funded"
+      }
+    ],
+    "risk": {
+      "reversibility": "fully-reversible",
+      "cost": "$20-50/month",
+      "timeToEffect": "8-12 weeks",
+      "harmNote": "Low physical risk. The cost is the monthly spend and the crowding out of interventions with far better evidence — the sunscreen and tretinoin entries above cost about the same and are backed by a great deal more."
+    },
+    "updated": "2026-08-25"
+  },
+  {
     "id": "does-mewing-change-your-jawline",
+    "pillar": "fitness",
     "claim": "Mewing permanently changes your jawline",
     "query": "does mewing work",
     "verdict": "unsupported",
-    "summary": "There is no controlled evidence that tongue posture remodels adult facial bone. Claimed 'before/afters' are dominated by body-fat change, posture, camera angle and lighting.",
+    "summary": "No controlled study has measured adult facial bone remodelling from tongue posture. The circulating before-and-afters are dominated by body-fat change, posture, camera angle and lighting.",
     "evidence": [
       {
-        "what": "No peer-reviewed trial has measured adult mandibular change from tongue posture.",
-        "source": "Literature gap — orthodontic reviews of myofunctional therapy",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/",
+        "what": "No peer-reviewed controlled trial has measured adult mandibular change attributable to resting tongue posture.",
+        "source": "Myofunctional therapy literature — absence of adult skeletal outcomes",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=myofunctional+therapy+mandible+adult",
         "strength": "absence-of-evidence"
       }
     ],
@@ -17,7 +231,76 @@
       "reversibility": "fully-reversible",
       "cost": "$0",
       "timeToEffect": "n/a",
-      "harmNote": "Harmless on its own. The real cost is opportunity cost: months spent on mewing instead of body composition or sleep, which do change how a face reads."
+      "harmNote": "Harmless in itself. The real cost is months spent on tongue posture instead of on sleep and body composition — the two entries on this list that actually do change how a face reads."
+    },
+    "updated": "2026-08-25"
+  },
+  {
+    "id": "do-sarms-work",
+    "pillar": "fitness",
+    "claim": "SARMs are a safer alternative to steroids",
+    "query": "are sarms safe",
+    "verdict": "harmful",
+    "summary": "They do affect body composition. They are also unapproved for human use, and chemical analysis of products sold as SARMs found that a large share were mislabelled or contained something else entirely.",
+    "evidence": [
+      {
+        "what": "Chemical analysis of products marketed as SARMs found frequent mislabelling and unlisted compounds.",
+        "source": "Van Wagoner et al., JAMA 2017",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29183075/",
+        "strength": "analytical-study"
+      }
+    ],
+    "risk": {
+      "reversibility": "potentially irreversible",
+      "cost": "$50-200/month plus bloodwork",
+      "timeToEffect": "8-12 weeks",
+      "harmNote": "The 'safer than steroids' framing compares a regulated drug against an unregulated one and calls the unregulated one safer. Documented risks include hepatotoxicity and suppression of your own testosterone production. You also cannot know what is in the vial, because the analyses say the sellers frequently do not."
+    },
+    "updated": "2026-08-25"
+  },
+  {
+    "id": "is-bone-smashing-safe",
+    "pillar": "surgery",
+    "claim": "Bone smashing remodels your facial structure",
+    "query": "does bone smashing work",
+    "verdict": "harmful",
+    "summary": "Striking your own face to 'remodel' bone is a misreading of Wolff's law. Bone adapts to gradual loading, not to trauma — and facial fractures heal asymmetrically.",
+    "evidence": [
+      {
+        "what": "Wolff's law describes bone adaptation to sustained mechanical loading, not to acute injury; facial trauma outcomes are documented in the maxillofacial fracture literature.",
+        "source": "Maxillofacial fracture outcome literature",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=facial+fracture+malunion+asymmetry",
+        "strength": "mechanistic-misreading"
+      }
+    ],
+    "risk": {
+      "reversibility": "irreversible",
+      "cost": "$0 up front; reconstruction runs to five figures",
+      "timeToEffect": "n/a",
+      "harmNote": "This is the most dangerous idea circulating in the niche. Fracture, nerve damage, infection and permanent asymmetry are the realistic outcomes — and asymmetry is the single feature that most reliably reads as 'off' in a face. There is no careful version of this. If you are considering it, that is worth talking to someone about, and we mean that without irony."
+    },
+    "updated": "2026-08-25"
+  },
+  {
+    "id": "does-limb-lengthening-increase-height",
+    "pillar": "surgery",
+    "claim": "Limb lengthening surgery makes you taller",
+    "query": "is limb lengthening surgery worth it",
+    "verdict": "harmful",
+    "summary": "It works — the procedure genuinely adds height. It is also among the most invasive elective operations available, with recovery measured in years, and it is marketed to young men in ways that badly understate that.",
+    "evidence": [
+      {
+        "what": "Orthopaedic distraction osteogenesis literature, including complication rates in cosmetic (non-corrective) series.",
+        "source": "Cosmetic limb lengthening outcome literature",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=cosmetic+limb+lengthening+complications",
+        "strength": "surgical-case-series"
+      }
+    ],
+    "risk": {
+      "reversibility": "irreversible",
+      "cost": "$75,000-$150,000+",
+      "timeToEffect": "12-18 months before normal walking",
+      "harmNote": "Filed under harmful not because it fails, but because the risk is routinely misrepresented. Nerve injury, fat embolism, non-union and permanent gait change are documented complications. Months of limited mobility are not a complication — they are the standard path. If a clinic's marketing does not lead with that, treat the rest of its claims accordingly."
     },
     "updated": "2026-08-25"
   }

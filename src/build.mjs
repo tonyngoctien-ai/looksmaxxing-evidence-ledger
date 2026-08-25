@@ -29,7 +29,10 @@ h1{font-size:1.9rem;line-height:1.25;margin:0 0 .5rem}h2{font-size:1.1rem;margin
 .row .s{display:block;color:#9aa3ad;font-size:.92rem;margin-top:.25rem}
 dl{display:grid;grid-template-columns:auto 1fr;gap:.4rem 1rem;margin:0}dt{color:#9aa3ad;font-size:.9rem}dd{margin:0}
 .note{border-left:2px solid #7a5f28;padding:.6rem 0 .6rem 1rem;color:#d6cfa8;background:#15140f;margin:1rem 0}
-footer{margin-top:3rem;color:#6b747d;font-size:.85rem}`;
+footer{margin-top:3rem;color:#6b747d;font-size:.85rem}
+.pill{font-size:.7rem;color:#6b747d;text-transform:uppercase;letter-spacing:.05em;margin-left:.5rem}
+.counts{display:flex;gap:.4rem;flex-wrap:wrap;margin:0 0 2rem}
+.counts .v{font-size:.7rem}`;
 
 const page = ({ title, desc, body, ld, canonical }) => `<!doctype html>
 <html lang="en"><head><meta charset="utf-8">
@@ -76,7 +79,8 @@ for (const c of claims) {
 const sorted = [...claims].sort((a,b) => VERDICTS[a.verdict].rank - VERDICTS[b.verdict].rank);
 const indexBody = `<h1>The looksmaxxing evidence ledger</h1>
 <p class="sub">Every popular claim in the niche, given a verdict, its sources, and what it actually costs you to try. Built because the alternative sources are a forum and a subreddit.</p>
-${sorted.map(c => `<a class="row" href="${SITE}/c/${c.id}.html"><span class="v v-${c.verdict}">${VERDICTS[c.verdict].label}</span><span class="c">${esc(c.claim)}</span><span class="s">${esc(c.summary)}</span></a>`).join('\n')}`;
+<div class="counts">${Object.entries(VERDICTS).map(([k,v])=>{const n=claims.filter(c=>c.verdict===k).length;return n?`<span class="v v-${k}">${n} ${v.label}</span>`:''}).join('')}</div>
+${sorted.map(c => `<a class="row" href="${SITE}/c/${c.id}.html"><span class="v v-${c.verdict}">${VERDICTS[c.verdict].label}</span><span class="pill">${esc(c.pillar||'')}</span><span class="c">${esc(c.claim)}</span><span class="s">${esc(c.summary)}</span></a>`).join('\n')}`;
 writeFileSync(`${OUT}/index.html`, page({
   title: 'The looksmaxxing evidence ledger — looksmaxxing.guide',
   desc: 'Verdicts, sources and real costs for the most-searched looksmaxxing claims.',
